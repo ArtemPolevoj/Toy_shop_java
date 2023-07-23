@@ -3,7 +3,7 @@ import java.util.HashMap;
 public class Main {
     public static void main(String[] args) {
         int countTickets = 15;
-        String fileName = "src/java_test/ResultRaffle.txt";
+        String fileName = "src/ResultRaffle.txt";
         Story story = new Story();
         PrizeToys prizeToys = new PrizeToys(countTickets, story.getListToys());
         Raffle raffle = new Raffle(countTickets, prizeToys.getToyQueue());
